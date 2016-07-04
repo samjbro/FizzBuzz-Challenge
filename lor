@@ -1,0 +1,18 @@
+[31mF[0m
+
+Failures:
+
+  1) Accept numerical input accepts number
+     [31mFailure/Error: [0mexpect(fizzbuzz(num)).to eq [31m[1;31m"[0m[31mYou have input the number '#{num}[0m[31m'[1;31m"[0m[31m[0m[0m
+     [31m[0m
+     [31mNameError:[0m
+     [31m  undefined local variable or method `num' for #<RSpec::ExampleGroups::AcceptNumericalInput:0x007fd4150279e8>[0m
+     [36m# ./spec/fizzbuzz_spec.rb:5:in `block (2 levels) in <top (required)>'[0m
+
+Finished in 0.00051 seconds (files took 0.08448 seconds to load)
+[31m1 example, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/fizzbuzz_spec.rb:4[0m [36m# Accept numerical input accepts number[0m
+
